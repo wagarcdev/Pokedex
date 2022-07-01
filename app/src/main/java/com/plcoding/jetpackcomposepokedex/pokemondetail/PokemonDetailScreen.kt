@@ -21,10 +21,8 @@ import androidx.compose.ui.Alignment.Companion.TopCenter
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
-import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Paint
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
@@ -35,13 +33,13 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltNavGraphViewModel
 import androidx.navigation.NavController
 import com.google.accompanist.coil.CoilImage
+import com.plcoding.jetpackcomposepokedex.R
 import com.plcoding.jetpackcomposepokedex.data.remote.responses.Pokemon
 import com.plcoding.jetpackcomposepokedex.data.remote.responses.Type
 import com.plcoding.jetpackcomposepokedex.util.Resource
-import com.plcoding.jetpackcomposepokedex.util.parseTypeToColor
-import com.plcoding.jetpackcomposepokedex.R
 import com.plcoding.jetpackcomposepokedex.util.parseStatToAbbr
 import com.plcoding.jetpackcomposepokedex.util.parseStatToColor
+import com.plcoding.jetpackcomposepokedex.util.parseTypeToColor
 import java.lang.Math.round
 import java.util.*
 
