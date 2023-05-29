@@ -22,10 +22,6 @@ O Pokédex é um aplicativo Android desenvolvido como um estudo de caso de MVVM,
 
 ## Uso 🚀
 
-O aplicativo é desenvolvido em Kotlin e utiliza várias bibliotecas e frameworks mencionados acima. Certifique-se de ter as dependências corretas configuradas no projeto antes de executá-lo.
-
-## Como Configurar o Ambiente de Desenvolvimento 🛠️
-
 1. Instale o Android Studio.
 2. Clone este repositório para sua máquina local.
 3. Abra o projeto no Android Studio.
